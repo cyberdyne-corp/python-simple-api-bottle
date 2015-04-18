@@ -6,7 +6,7 @@ def list_containers():
     print('Listing containers.')
 
 
-@route('/containers', method='PUT')
+@route('/containers', method='POST')
 def create_container():
     data = request.json
     if not data:
