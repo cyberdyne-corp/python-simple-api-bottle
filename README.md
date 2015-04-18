@@ -33,7 +33,7 @@ $ curl http://localhost:8080/containers/
 ```` 
 
 ````
-$ curl -H 'Content-Type: application/json' -X PUT -d '{"image": "organization/image", "service": "myService"}' http://localhost:8080/containers
+$ curl -H 'Content-Type: application/json' -X POST -d '{"image": "organization/image", "service": "myService"}' http://localhost:8080/containers
 ```` 
 
 ````
