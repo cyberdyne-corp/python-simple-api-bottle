@@ -12,7 +12,7 @@ http://bottlepy.org/docs/dev/index.html
 
 ## Setup
 
-Install bottle (assuming you got a Python devel environment ready):
+Install bottle (assuming you got a devel environment ready with python 3.2 or above):
 
 ````
 $ pip install bottle
